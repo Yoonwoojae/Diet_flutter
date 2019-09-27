@@ -1,0 +1,56 @@
+name: burn_off
+description: Burn Off Calories
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.2
+
+  flutter_svg: ^0.13.0+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/running.svg
+    - assets/images/bicycle.svg
+    - assets/images/swim.svg
+    - assets/images/workout.svg
+    - assets/images/donut.svg
+    - assets/images/burger.svg
+    - assets/images/ice_cream.svg
+    - assets/images/pizza.svg
+    - assets/images/cake.svg
+    - assets/images/bottom_donut.svg
+    - assets/images/bottom_burger.svg
+    - assets/images/bottom_ice_cream.svg
+    - assets/images/bottom_pizza.svg
+    - assets/images/bottom_cake.svg
+
+  fonts:
+    - family: Qwigley
+      fonts:
+        - asset: assets/fonts/qwigley/Qwigley-Regular.ttf
+    - family: Dosis
+      fonts:
+        - asset: assets/fonts/dosis/Dosis-Regular.otf
+          weight: 400
+        - asset: assets/fonts/dosis/Dosis-Medium.otf
+          weight: 500
+        - asset: assets/fonts/dosis/Dosis-SemiBold.otf
+          weight: 600
+        - asset: assets/fonts/dosis/Dosis-Bold.otf
+          weight: 800
+        - asset: assets/fonts/dosis/Dosis-ExtraBold.otf
+          weight: 900
